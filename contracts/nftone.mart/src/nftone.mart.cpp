@@ -519,7 +519,7 @@ using namespace std;
       if ( to_add){
          _gstate1.nft_contract_whitelist.insert(nbank);
       }else {
-         _gstate1.nft_contract_whitelist.insert(nbank);
+         _gstate1.nft_contract_whitelist.erase(nbank);
       }
       
 
